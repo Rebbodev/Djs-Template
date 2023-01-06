@@ -1,0 +1,1 @@
+export type delays = {slash: {[key: string]: number}, legacy: {[key: string]: number}}

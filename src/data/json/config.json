@@ -1,0 +1,30 @@
+{
+      
+    "settings": {
+        "devId": ["984027568166539265"]
+    },
+    
+    "presence": {
+        "text": "By Rebbo Development!",
+        "url": "https://rebbo.dev"
+    },
+    
+    "legacyCommands": {
+        "enabled": true,
+        "prefix": ">",
+        "delays": true
+    },
+
+    "slashCommands": {
+        "enabled": true,
+        "guilds": ["984071171928629259"],
+        "delays": true
+    },
+
+    "filePaths": {
+        "jsonEditor": "{PROCESS}/src/data/logs/jsonEdits.log",
+        "cmdDelays": "{PROCESS}/src/data/json/delays.json"
+    }
+    
+
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Discord Bot Template - ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lvksh/logger": "^1.6.3",
+    "@pnpm/global-bin-dir": "^3.0.1",
+    "@types/ms": "^0.7.31",
+    "colors": "^1.4.0",
+    "command-handler": "^1.0.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "ms": "^2.1.3",
+    "lib": "link:../command-handler"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "*",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": ">=5.0.0 <6.0.0",
+    "eslint": "^8.30.0",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
